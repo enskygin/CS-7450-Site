@@ -1,0 +1,95 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,600;1,200;1,400&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: 0;
+    font-family: "Source Code Pro", light;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.container h1 {
+    font-style: italic;
+}
+
+
+.about {
+    background-color: whitesmoke;
+    position: relative; 
+    padding-top: 0px; 
+}
+
+.about-content {
+    max-width: 820px; 
+    margin: 10 auto; 
+}
+
+
+.about img {
+    width: 200px;
+    height: auto;
+    border: 1px solid rgb(4, 0, 255);
+    position: absolute;
+    top: 10%; 
+    left: 10%; 
+}
+
+.about div {
+    margin-top: 300px; 
+}
+
+.publications{
+    background-color:whitesmoke ;
+}
+
+.research-content div {
+    margin-top: 100px; 
+}
+
+.research-interests{
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.research-content {
+    max-width: 820px; 
+    margin: 10 auto; 
+}
+
+.research-interests p {
+    margin-top: 500px; 
+}
+
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.publication-list > div {
+    border: 1px solid #ccc; 
+    padding: 10px;
+}
+
+.publications-container {
+    margin-top: 20px; 
+}
+
+
+
+.svg-container {
+    position: absolute; 
+    top: 10%; 
+    left: calc(60% + 50px); 
+}
